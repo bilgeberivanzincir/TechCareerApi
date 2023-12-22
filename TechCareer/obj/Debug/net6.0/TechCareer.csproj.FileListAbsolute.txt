@@ -30,3 +30,4 @@ C:\Users\zinci\source\repos\TechCareer\TechCareer\obj\Debug\net6.0\refint\TechCa
 C:\Users\zinci\source\repos\TechCareer\TechCareer\obj\Debug\net6.0\TechCareer.pdb
 C:\Users\zinci\source\repos\TechCareer\TechCareer\obj\Debug\net6.0\TechCareer.genruntimeconfig.cache
 C:\Users\zinci\source\repos\TechCareer\TechCareer\obj\Debug\net6.0\ref\TechCareer.dll
+C:\Users\zinci\source\repos\TechCareer\TechCareer\obj\Debug\net6.0\TechCareer.sourcelink.json
