@@ -34,7 +34,6 @@ namespace TechCareer.Controllers
                 UnitPrice=120,
                 Category= new Category{Id=2, Name="Book"} },
 
-
         };
 
 
