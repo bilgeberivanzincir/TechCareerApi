@@ -17,7 +17,7 @@ namespace TechCareer.Controllers
         [HttpGet]
         public IActionResult GetAllEmployee()
         {
-            var employee = _context.Employees.FirstOrDefault();
+            var employee = _context.Employees.ToList();
             if (employee == null)
             {
                 return NotFound();
