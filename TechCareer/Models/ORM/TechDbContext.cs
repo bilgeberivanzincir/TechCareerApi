@@ -10,6 +10,8 @@ namespace TechCareer.Models.ORM
             optionsBuilder.UseSqlServer("Server=LAPTOP-RP5M39N0\\MSSQLSERVER3; Database=TechCareerDb; trusted_connection=true");
         }
         public DbSet<Employee> Employees { get; set; }
+        public DbSet<WebUser> WebUsers { get; set; }
+        public DbSet<Order> Orders { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

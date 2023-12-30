@@ -12,7 +12,7 @@ namespace TechCareer.Controllers
         public EmployeeController()
         {
             _context = new TechDbContext();
-        }
+        }    
 
         [HttpGet]
         public IActionResult GetAllEmployee()
