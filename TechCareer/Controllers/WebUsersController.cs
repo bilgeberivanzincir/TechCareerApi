@@ -19,7 +19,7 @@ namespace TechCareer.Controllers
         [HttpGet]
         public IActionResult Get()
         {
-            var result = _context.WebUsers.Include(x => x.Orders);
+            var result = _context.WebUsers.Include(x => x.Orders).ToList();
             return Ok(result);
         }
     }
